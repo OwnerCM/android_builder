@@ -12,7 +12,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          java-version: '8'  # 使用字符串格式指定 Java 版本
+          java-version: '11'  # 使用字符串格式指定 Java 版本
           distribution: 'temurin'  # 可选，指定 JDK 发行版（如 Temurin, AdoptOpenJDK 等）
       - id: get-project
         name: Get project name
